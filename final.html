@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>Sign Up</title>
+      <style type="text/css">
+        input:hover
+        {
+          font-size: 30px;
+        }
+        label:hover
+        {
+          font-size:  30px;
+        }
+        label,input
+        {
+          font-size: 20x;
+        }
+        fieldset
+        {
+          background:lightyellow;
+          border:10px solid yellow;
+          margin-bottom:10px;
+          width:720px;
+        }
+        label
+        {
+          width:180px;
+          display: inline-block;
+          text-align: right;
+          text-align: top;
+        }
+        #labels
+        {
+          width:auto;
+          display: inline-block;
+        }
+        #rlabel
+        {
+         background: red;
+          color:white;
+          width:auto;
+        }
+        #plabel
+        {
+          background: purple; 
+          color:white;
+          width:auto;
+        }
+      </style>
+    </head>
+    <body>
+    <h1>
+      Sign Up Form.
+    </h1>
+      <form action="https://ihome.ust.hk/~rossiter/cgi-bin/show_everything.php" method="post" enctype="multipart/form-data">
+        <fieldset id="picture">
+          <legend>
+            Profile Picture
+          </legend>
+            <label for="pic">Your Picture: </label><input type="file" required id="pic">
+            <br>
+            <label for="preview">Image Preview: </label><img id="preview">
+        </fieldset>
+        <fieldset>
+          <legend>
+            General Details
+          </legend>
+            <label for="name">Full Name: </label><input type="text" required id="name">
+            <br>
+            <label for="gender">Gender: </label>
+            <input type="radio" id="male"><label for="male" id="labels">Male</label>
+            <input type="radio" id="female"><label for="female" id="labels">Female</label>
+            <br>
+            <label for="age">Age: </label><input type="number" id="age" required>
+            <br>
+            <label for="dob">Date of Birth: </label><input type="date" id="dob" required placeholder="    dd/mm/yyyy">
+            <br>
+            <label for="fcolor">Favourite Color: </label><input type="color" id="fcolor">
+            <br>
+            <label for="country">Country</label> 
+            <select id="country">
+                <option>No Selection.</option>
+                <option>USA</option>
+                <option>UK</option>
+                <option>Russia</option>
+                <option>China</option>
+                <option>Germany</option>
+            </select>
+        </fieldset>
+        <fieldset>
+          <legend>
+            Your Indicators
+          </legend>
+          <label for="height">Height</label>
+          <label for="height" id="rlabel">Short</label><input type="range" id="height"><label for="height" id="plabel">Tall</label><br>
+          <label for="salary" >Salary</label>
+          <label for="salary" id="rlabel">Poor</label><input type="range" id="salary"><label for="salary" id="plabel">Rich</label><br>
+        </fieldset>
+        <fieldset>
+          <legend>
+            Contact Information
+          </legend>
+          <label for="emailId">Email: </label><input type="email" id="emailId">
+          <br>
+          <label for="mobile">Mobile: </label><input type="tel" id="mobile">
+          <br>
+          <label for="address">Address</label><textarea id="address"></textarea>
+          <br>
+          <label for="contacts">Method to contact you:</label>
+          <input type="checkbox" id="email"><label for="email" id="labels">Email</label>
+          <input type="checkbox" id="whatsapp"><label for="whatsapp" id="labels">Whatsapp</label>
+          <input type="checkbox" id="app"><label for="app" id="labels">In-app Chat</label>
+        </fieldset>
+        <button type="submit" name="Submit" id="submit">
+          Submit
+        </button>
+      </form>
+      <script src="https://www.cse.ust.hk/~rossiter/dating_web_site.js"></script>
+    </body>
+</html>
