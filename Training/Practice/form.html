@@ -1,0 +1,51 @@
+<!DOCTYPE <!DOCTYPE html>
+<html lang="en-US">
+<head>
+	<meta charset="utf-8">
+	<title>Project Form</title>
+	<link rel="stylesheet" type="text/css" href="css/styleform.css">
+</head>
+<body>
+	<header id="heading">
+		<h1>Project Form</h1>
+	</header>
+		<form method="post" action="/projects/1" id="projects">
+			<fieldset id="personal_information">
+				<legend>Project Information</legend>
+				<ol>
+					<li>
+						<label for="name">Name</label>
+						<input type="text" name="name" autofocus id="name" placeholder="Name">
+					</li>
+					<li>
+						<input type="submit" value="Submit">
+					</li>
+					<li>
+						<label for="priority">Priority</label>
+						<input type="range" min="0" max="100" name="priority" value="0" id="priority"></input>
+					</li>
+					<li>
+						<label for="estimated_hours">Estimated Hours</label>
+						<input type="number" name="estimated_hours" min="0" max="100" id="estimated_hours">
+					</li>
+					<li>
+						<label for="start_date">Start Date</label>
+						<input type="date" name="start_date" id="start_date" value="2016-07-18">
+					</li>
+					<li>
+						<label for="email">Email Contact</label>
+						<input type="email" name="email" id="email" placeholder="user@example.com">
+					</li>
+					<li>
+						<label for="url">Staging URL</label>
+						<input type="url" name="url" id="url" placeholder="">
+					</li>
+					<li>
+						<label for="project_color">Project color</label>
+						<input type="color" name="project_color" id="project_color">
+					</li>
+				</ol>
+			</fieldset>
+		</form>
+</body>
+</html>

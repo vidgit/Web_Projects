@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-US">
+	<head>
+		<meta charset="utf-8">
+		<title>Sign Up</title>
+		<link rel="stylesheet" type="text/css" href="css/stylesignup.css">
+	</head>
+	<body>
+		<header>
+			<h1>SIGN UP</h1>
+		</header>
+		<form id="create_account" action="/signup" method="post">
+			<fieldset id="signup">
+			<legend>Create New Account</legend>
+				<ol>
+					<li>
+						<label for="first_name">First Name</label>
+						<input id="first_name" type="text"
+						autofocus required 
+						name="first_name" placeholder="'John'">
+					</li>
+					<li>
+						<label for="last_name">Last Name</label>
+						<input id="last_name" type="text"
+						name="last_name" required placeholder="'Smith'">
+					</li>
+					<li>
+						<label for="email">Email</label>
+						<input id="email" type="email" required 
+						name="email" placeholder="user@example.com">
+					</li>
+					<li>
+						<label for="password">Password</label>
+						<input id="password" type="password" name="password" value=""
+						autocomplete="off" required placeholder="8-10 characters" pattern="^(?=.{8,})(?=.*[a-z])(?=.*[A-Z])(?=.*[\d])(?=.*[\W]).*$" title="Password must be 8 or more characters with at least one number, an uppercase letter, and one special character"/>
+					</li>
+					<li>
+						<label for="password_confirmation">Password Confirmation</label>
+						<input id="password_confirmation" type="password"
+						name="password_confirmation" value=""
+						autocomplete="off" required placeholder="Type your password again" pattern="^(?=.{8,})(?=.*[a-z])(?=.*[A-Z])(?=.*[\d])(?=.*[\W]).*$" title="Password must be 8 or more characters with at least one number, an uppercase letter, and one special character"/>
+					</li>
+					<li>
+						<input type="submit" value="Sign Up">
+					</li>
+				</ol>
+			</fieldset>
+			</form>
+	</body>
