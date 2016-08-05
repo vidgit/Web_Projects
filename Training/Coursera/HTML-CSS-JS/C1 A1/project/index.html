@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <meta charset="utf-8">
+      <title>Sign Up</title>
+      <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+    <h1>
+      Sign Up Form.
+    </h1>
+      <form action="https://ihome.ust.hk/~rossiter/cgi-bin/show_everything.php" method="post" enctype="multipart/form-data">
+        <fieldset id="picture">
+          <legend>
+            Profile Picture
+          </legend>
+            <label for="pic">Your Picture: </label><input type="file" required id="pic">
+            <br>
+            <label for="preview">Image Preview: </label><img id="preview">
+        </fieldset>
+        <fieldset>
+          <legend>
+            General Details
+          </legend>
+          <label for="name">Full Name:&nbsp</label><input type="text" required id="name">
+            <br>
+          <label for="gender">Gender:&nbsp</label>
+            <input type="radio" id="male" name="male" value="Male"><label for="male" id="labels">Male</label>
+          <input type="radio" id="female" value="Female"><label for="female" id="labels">Female</label>
+            <br>
+          <label for="age">Age:&nbsp</label><input type="number" id="age" required>
+            <br>
+          <label for="dob">Date of Birth:&nbsp</label><input type="date" id="dob" required placeholder="    dd/mm/yyyy">
+            <br>
+          <label for="fcolor">Favourite Color:&nbsp</label><input type="color" id="fcolor">
+            <br>
+          <label for="country">Country:&nbsp</label> 
+            <select id="country">
+                <option value=" ">No Selection.</option>
+                <option value="usa">USA</option>
+                <option value="uk">UK</option>
+                <option value="russia">Russia</option>
+                <option value="china">China</option>
+                <option value="germany">Germany</option>
+            </select>
+        </fieldset>
+        <fieldset>
+          <legend>
+            Your Indicators
+          </legend>
+          <label for="height">Height:&nbsp</label>
+          <label for="height" id="rlabel">&nbspShort&nbsp</label><input type="range" id="height"><label for="height" id="plabel">&nbspTall&nbsp&nbsp</label><br>
+          <label for="salary" >Salary:&nbsp</label>
+          <label for="salary" id="rlabel">&nbspPoor&nbsp&nbsp</label><input type="range" id="salary"><label for="salary" id="plabel">&nbspRich&nbsp</label><br>
+        </fieldset>
+        <fieldset>
+          <legend>
+            Contact Information
+          </legend>
+          <label for="emailId">Email: </label><input type="email" id="emailId" required>
+          <br>
+          <label for="mobile">Mobile: </label><input type="tel" id="mobile">
+          <br>
+          <label for="address">Address</label><textarea id="address"></textarea>
+          <br>
+          <label for="contacts">Method to contact you:</label>
+          <input type="checkbox" id="email"><label for="email" id="labels">Email</label>
+          <input type="checkbox" id="whatsapp"><label for="whatsapp" id="labels">Whatsapp</label>
+          <input type="checkbox" id="app"><label for="app" id="labels">In-app Chat</label>
+        </fieldset>
+        <button type="submit" name="Submit" id="submit">
+          Submit
+        </button>
+      </form>
+      <script src="https://www.cse.ust.hk/~rossiter/dating_web_site.js"></script>
+    </body>
+</html>

@@ -1,0 +1,41 @@
+input:hover,label:hover,select:hover
+{
+  font-size:  30px;
+}
+
+label,input
+{
+  font-size: 20x;
+}
+fieldset
+{
+  background:lightyellow;
+  border:10px solid yellow;
+  margin-bottom:10px;
+  width:720px;
+  padding-bottom:5px;
+}
+label
+{
+  width:180px;
+  display: inline-block;
+  text-align: right;
+  text-align: top;
+}
+#labels
+{
+  width:auto;
+  display: inline-block;
+}
+#rlabel
+{
+ background: red;
+  color:white;
+  width:auto;
+}
+#plabel
+{
+  background: purple; 
+  color:white;
+  width:auto;
+}
