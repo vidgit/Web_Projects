@@ -1,0 +1,321 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"in",
+				"inputColor"
+			],
+			[
+				"inline",
+				"inline"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+		[
+			[
+				[
+					"Packages/Python/Python.sublime-build",
+					""
+				],
+				[
+					"Packages/Python/Python.sublime-build",
+					"Syntax Check"
+				]
+			],
+			[
+				"Packages/Python/Python.sublime-build",
+				""
+			]
+		]
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 104.0,
+		"last_filter": "Package Control: install ",
+		"selected_items":
+		[
+			[
+				"Package Control: install ",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ins",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: li",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: insta",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: install",
+				"Package Control: Install Package"
+			],
+			[
+				"Package Control: in",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 400.0
+	},
+	"console":
+	{
+		"height": 126.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/D/code/Web_Projects/Portfolio"
+	],
+	"file_history":
+	[
+		"/D/code/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/aboutus.html",
+		"/D/code/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/index.html",
+		"/D/code/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/contactus.html",
+		"/D/workspace/ofsaa804/ofsaa/WebContent/modeling/scripts/variable/variable.js",
+		"/D/code/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/index1.html",
+		"/D/code/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/index2.html",
+		"/D/code/index.html",
+		"/C/Users/vibjoshi/AppData/Local/Temp/scp09266/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/modeling/variable/variable_definition_add.jsp",
+		"/D/Softwares/Sublime Text 3/Html/Course 2 UI/Week 2/contactus.html",
+		"/D/code/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/css/mystyles.css",
+		"/D/code/ThousandsPrime.java",
+		"/D/code/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/template.html",
+		"/D/code/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/bootstrap/conFusion/index.html",
+		"/D/code/ThousandsPrime.py",
+		"/D/code/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/template.html",
+		"/D/code/Web_Projects/template.html",
+		"/D/code/help.py",
+		"/D/code/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/bootstrap/readme.md",
+		"/D/Softwares/Sublime Text 3/Packages/anaconda-1.4.4/README.md",
+		"/C/Users/vibjoshi/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
+		"/D/code/New folder/C1 A1/project/index.html",
+		"/D/code/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/readme.md",
+		"/C/Users/vibjoshi/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
+		"/D/Softwares/Sublime Text 3/Packages/Package Control.sublime-package",
+		"/C/Users/vibjoshi/AppData/Local/Temp/scp40566/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/StressTesting/varshocklib/variable_shock_lib_new.jsp",
+		"/D/code/New folder/C1 A3/project/index.html",
+		"/D/workspace/ofsaa804/ofsaa/WebContent/StressTesting/varshocklib/variable_shock_lib_new.jsp",
+		"/C/Users/vibjoshi/AppData/Local/Temp/scp34638/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/StressTesting/stressdef/stress_definition_RRF.jsp",
+		"/D/workspace/ofsaa804/ofsaa/WebContent/StressTesting/stressdef/stress_definition_RRF.jsp",
+		"/D/workspace/ofsaa804/ofsaa/WebContent/StressTesting/stressdef/stress_definition.jsp",
+		"/C/Users/vibjoshi/AppData/Local/Temp/scp34455/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/StressTesting/stressdef/stress_definition.jsp",
+		"/D/workspace/ofsaa804/ofsaa/WebContent/StressTesting/stressdef/stress_summary.jsp",
+		"/C/Users/vibjoshi/AppData/Local/Temp/scp28017/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/StressTesting/stressdef/stress_summary.jsp",
+		"/C/Users/vibjoshi/AppData/Local/Temp/scp03059/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/modeling/deployment/model_deployment.jsp",
+		"/D/workspace/ofsaa804/ofsaa/WebContent/modeling/deployment/model_deployment.jsp",
+		"/D/workspace/ofsaa804/ofsaa/WebContent/modeling/deployment/model_deployment_log.jsp",
+		"/C/Users/vibjoshi/AppData/Local/Temp/scp03770/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/modeling/deployment/model_deployment_log.jsp",
+		"/D/workspace/ofsaa804/ofsaa/WebContent/modeling/execution/req_model_execution_summary.jsp",
+		"/D/Softwares/Presentation_Notes_and_Examples/03_Advanced_JavaScript/3-06_an_example_dom_project/3-06_an_example_dom_project/01_dom_colorful_pattern_js.js",
+		"/D/Softwares/Presentation_Notes_and_Examples/03_Advanced_JavaScript/3-06_an_example_dom_project/3-06_an_example_dom_project/01_dom_colorful_pattern.html",
+		"/D/Softwares/Sublime Text 3/Html/Week 3 Assignment/part1.html",
+		"/D/Softwares/Sublime Text 3/Html/Week 3 Assignment/part2.html",
+		"/D/Softwares/Sublime Text 3/Html/Week 3 Assignment/part3.html",
+		"/D/Softwares/Sublime Text 3/Html/Week 3 Assignment/part4.html",
+		"/D/Softwares/Sublime Text 3/Html/Week 3 Assignment/hw.py",
+		"/D/restpython/rest.py",
+		"/C/Users/vibjoshi/AppData/Local/Temp/scp15695/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/StressTesting/stressdef/treeBrowserRRF.jsp",
+		"/C/Users/vibjoshi/AppData/Local/Temp/scp39793/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/modeling/execution/req_model_execution_summary.jsp",
+		"/C/Users/vibjoshi/AppData/Local/Temp/scp53751/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/StressTesting/varshocklib/Hierarchy_Br_filter.jsp",
+		"/D/workspace/ofsaa804/ofsaa/WebContent/StressTesting/varshocklib/Hierarchy_Br_filter.jsp",
+		"/D/Softwares/Sublime Text 3/Html/Week 2 Assignment/part1.html",
+		"/D/Softwares/Sublime Text 3/Html/Week 2 Assignment/dfsdf.html",
+		"/C/Users/vibjoshi/AppData/Local/Temp/scp17995/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/StressTesting/scenario/scenario_management_edit.jsp",
+		"/D/Softwares/Sublime Text 3/Html/Week 2 Assignment/part2.html",
+		"/D/Softwares/Presentation_Notes_and_Examples/01_HTML_&_CSS/1-04_handling_forms/04_handling_forms/1-4-2_more_on_forms/04_html_example_form_password_bad.html",
+		"/D/Softwares/Sublime Text 3/Html/Week 1 Assignment/final.html",
+		"/D/workspace/ofsaa804/ofsaa/WebContent/modeling/sandbox/SandboxDefinition_Add.jsp",
+		"/C/Users/vibjoshi/AppData/Local/Temp/scp40088/scratch/ofsaadb/tomcat-7.0.19/webapps/ofss/modeling/scripts/sandbox/SandboxDefinition_Add.js",
+		"/D/Softwares/Sublime Text 3/Html/Week 1 Assignment/Part_3.html",
+		"/D/Softwares/Sublime Text 3/Html/part3.html",
+		"/D/Softwares/Sublime Text 3/Html/Week 1 Assignment/Part_2.html",
+		"/D/Softwares/Sublime Text 3/Html/part2.html",
+		"/D/Softwares/Sublime Text 3/Html/Week 1 Assignment/Part_1.html",
+		"/D/Softwares/Sublime Text 3/Html/part1.html",
+		"/D/Softwares/Sublime Text 3/Html/Part_1.html",
+		"/C/Users/vibjoshi/AppData/Local/Temp/scp25682/scratch/ofsaadb/tomcat-7.0.19/webapps/ofss/modeling/outputs/model_output_details.jsp",
+		"/C/Users/vibjoshi/AppData/Local/Temp/scp46766/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/modeling/deployment/model_deployment.jsp",
+		"/C/Users/vibjoshi/AppData/Local/Temp/scp36266/scratch/ofsaadb/tomcat-7.0.19/webapps/ofss/AAI/common/CommonFunctions.js",
+		"/C/Users/vibjoshi/AppData/Local/Temp/scp10268/scratch/ofsaadb/tomcat-7.0.19/webapps/ofss/AAI/common/hierYahooTree.js",
+		"/C/Users/vibjoshi/AppData/Local/Temp/scp08948/scratch/ofsaadb/tomcat-7.0.19/webapps/ofss/modeling/sandbox/SandboxDefinition_Add.jsp",
+		"/C/Users/vibjoshi/AppData/Local/Temp/scp22745/scratch/ofsaadb/tomcat-7.0.19/webapps/ofss/modeling/scripts/sandbox/SandboxMaintenance_Edit.js",
+		"/C/Users/vibjoshi/AppData/Local/Temp/scp22725/scratch/ofsaadb/tomcat-7.0.19/webapps/ofss/modeling/scripts/sandbox/SandboxDefinition_Add.js",
+		"/C/Users/vibjoshi/AppData/Local/Temp/scp45792/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/AAI/common/CommonFunctions.js",
+		"/C/Users/vibjoshi/AppData/Local/Temp/scp04600/scratch/ofsaadb/tomcat-7.0.19/webapps/ofss/StressTesting/scripts/uploadFile/UploadScenarioFile.js",
+		"/C/Users/vibjoshi/AppData/Local/Temp/scp03849/scratch/ofsaadb/tomcat-7.0.19/webapps/ofss/StressTesting/scripts/uploadFile/UploadFileSummary.js",
+		"/C/Users/vibjoshi/AppData/Local/Temp/scp21942/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/modeling/scripts/sandbox/SandboxDefinition_Add.js",
+		"/C/Users/vibjoshi/AppData/Local/Temp/scp22905/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/modeling/scripts/sandbox/SandboxMaintenance_Edit.js",
+		"/C/Users/vibjoshi/AppData/Local/Temp/scp21821/scratch/ofsaadb/tomcat-7.0.19/webapps/ofss/modeling/scripts/sandbox/SandboxDefinition_Add.js",
+		"/C/Users/vibjoshi/AppData/Local/Temp/scp12219/scratch/ofsaadb/tomcat-7.0.19/webapps/ofss/modeling/scripts/sandbox/SandboxMaintenance_Edit.js",
+		"/C/Users/vibjoshi/AppData/Local/Temp/scp05061/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/modeling/sandbox/Hierarchy_Br_sandbox_location.jsp"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"<span",
+			"<span>",
+			"images",
+			"proxy",
+			"http",
+			"fn_clo",
+			"fn_cl",
+			"fn_clo",
+			"<body",
+			"openModal",
+			"alt=",
+			"noChange",
+			"opener",
+			"window",
+			"modelInfoDiv",
+			"parentWindow",
+			"sandboxForm",
+			"openModalDialog",
+			"fn_setNonTimeHierElementNodes",
+			"showModalDialog"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 298.0
+	},
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "Packages/Python/Python.sublime-build",
+	"project": "Portfolio_Me.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 325.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}
