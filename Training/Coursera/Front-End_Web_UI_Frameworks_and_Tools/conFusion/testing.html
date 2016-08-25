@@ -30,8 +30,19 @@
 			aria-controls="collpaseExample">
 			Toggle Info</a>
 		</div>
-
+		<button data-toggle="tooltip" data-placement="top|bottom|left|right" title="Wow"><a href="#">Such Sweg</a></button>
+		<button data-toggle="popover" data-placement="top|bottom|left|right" title="Much YOLO" data-content="WOW" ><a href="#">Such Sweg</a></button>
 		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
 		<script src="js/bootstrap.min.js"></script>
+		<script>
+			$(document).ready(function(){
+				$('[data-toggle="tooltip"]').tooltip();
+			});
+		</script>
+		<script>
+			$(document).ready(function(){
+				$('[data-toggle="popover"]').popover();
+			});
+		</script>
 	</body>
 </html>
