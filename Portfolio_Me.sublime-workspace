@@ -27,7 +27,7 @@
 			"file": "Portfolio/index.html",
 			"settings":
 			{
-				"buffer_size": 1656,
+				"buffer_size": 5302,
 				"line_ending": "Windows"
 			}
 		},
@@ -48,10 +48,13 @@
 			}
 		},
 		{
+			"contents": ".navbar-fixed-left {\n  width: 140px;\n  position: fixed;\n  border-radius: 0;\n  height: 100%;\n}\n\n.navbar-fixed-left .navbar-nav > li {\n  float: none;  /* Cancel default li float: left */\n  width: 139px;\n}\n\n.navbar-fixed-left + .container {\n  padding-left: 160px;\n}\n\n/* On using dropdown menu (To right shift popuped) */\n.navbar-fixed-left .navbar-nav > li > .dropdown-menu {\n  margin-top: -50px;\n  margin-left: 140px;\n}\n#toggle\n{\n	position: fixed;\n	left:160px;\n}\n.row-content\n{\n	padding:50px;\n	border-bottom: 2px; \n}\n.collapse.width {\n    height: auto;\n    -webkit-transition: width 0.35s ease;\n    -moz-transition: width 0.35s ease;\n    -o-transition: width 0.35s ease;\n    transition: width 0.35s ease;\n}",
 			"file": "Portfolio/css/stylesheet.css",
+			"file_size": 640,
+			"file_write_time": 131165855667007289,
 			"settings":
 			{
-				"buffer_size": 417,
+				"buffer_size": 704,
 				"line_ending": "Windows"
 			}
 		}
@@ -270,7 +273,7 @@
 	"groups":
 	[
 		{
-			"selected": 4,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -308,15 +311,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 1656,
+						"buffer_size": 5302,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1219,
-								1219
+								618,
+								618
 							]
 						],
 						"settings":
@@ -328,7 +331,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -357,7 +360,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 2,
+					"stack_index": 3,
 					"type": "text"
 				},
 				{
@@ -386,7 +389,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 3,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
@@ -395,15 +398,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 417,
+						"buffer_size": 704,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								260,
-								260
+								704,
+								704
 							]
 						],
 						"settings":
@@ -414,7 +417,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				}
 			]

@@ -72,3 +72,7 @@ body
 {
   color: #000000; 
 }
+.affix
+{
+  top:100px;
+}

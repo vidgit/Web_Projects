@@ -19,3 +19,18 @@
   margin-top: -50px;
   margin-left: 140px;
 }
+#toggle
+{
+	position: fixed;
+	left:160px;
+}
+.row-content
+{
+	padding:50px;
+	border-bottom: 2px; 
+}
+.collapsing.width  { 
+    width: 0;
+    height: auto;
+    .transition(width 0.35s ease);
+}
