@@ -15,6 +15,46 @@
 	},
 	"buffers":
 	[
+		{
+			"file": "Portfolio/template.html",
+			"settings":
+			{
+				"buffer_size": 470,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Portfolio/index.html",
+			"settings":
+			{
+				"buffer_size": 1656,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Portfolio/aboutus.html",
+			"settings":
+			{
+				"buffer_size": 1319,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Portfolio/contactus.html",
+			"settings":
+			{
+				"buffer_size": 1319,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "Portfolio/css/stylesheet.css",
+			"settings":
+			{
+				"buffer_size": 417,
+				"line_ending": "Windows"
+			}
+		}
 	],
 	"build_system": "",
 	"build_system_choices":
@@ -93,8 +133,11 @@
 	],
 	"file_history":
 	[
-		"/D/code/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/aboutus.html",
 		"/D/code/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/index.html",
+		"/D/code/Web_Projects/Portfolio/contact.html",
+		"/D/code/Web_Projects/Portfolio/readme.md",
+		"/D/code/Web_Projects/Portfolio/bootstrap-css-classes-desk-reference-bc.pdf",
+		"/D/code/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/aboutus.html",
 		"/D/code/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/contactus.html",
 		"/D/workspace/ofsaa804/ofsaa/WebContent/modeling/scripts/variable/variable.js",
 		"/D/code/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/index1.html",
@@ -227,8 +270,153 @@
 	"groups":
 	[
 		{
+			"selected": 4,
 			"sheets":
 			[
+				{
+					"buffer": 0,
+					"file": "Portfolio/template.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 470,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								453,
+								453
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "Portfolio/index.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1656,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1219,
+								1219
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "Portfolio/aboutus.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								754,
+								754
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "Portfolio/contactus.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1319,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								997,
+								997
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"translate_tabs_to_spaces": false
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "Portfolio/css/stylesheet.css",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 417,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								260,
+								260
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/CSS/CSS.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				}
 			]
 		}
 	],
@@ -238,7 +426,7 @@
 	},
 	"input":
 	{
-		"height": 0.0
+		"height": 31.0
 	},
 	"layout":
 	{
