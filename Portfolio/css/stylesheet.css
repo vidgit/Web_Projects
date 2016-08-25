@@ -29,8 +29,10 @@
 	padding:50px;
 	border-bottom: 2px; 
 }
-.collapsing.width  { 
-    width: 0;
+.collapse.width {
     height: auto;
-    .transition(width 0.35s ease);
+    -webkit-transition: width 0.35s ease;
+    -moz-transition: width 0.35s ease;
+    -o-transition: width 0.35s ease;
+    transition: width 0.35s ease;
 }
