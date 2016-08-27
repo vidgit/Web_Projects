@@ -1,0 +1,20 @@
+{
+  "name": "yes",
+  "description": "Website for an awesome restaurant",
+  "main": "index.html",
+  "keywords": [
+    "conFusion"
+  ],
+  "authors": [
+    "vibhor joshi"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
