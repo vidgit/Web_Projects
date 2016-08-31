@@ -19,7 +19,7 @@
 			"file": "conFusion/app/menu.html",
 			"settings":
 			{
-				"buffer_size": 4424,
+				"buffer_size": 4619,
 				"line_ending": "Windows"
 			}
 		}
@@ -247,25 +247,25 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 4424,
+						"buffer_size": 4619,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1230,
-								1230
+								1465,
+								1465
 							]
 						],
 						"settings":
 						{
 							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
+							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 180.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
@@ -355,7 +355,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 518.0,
+	"side_bar_width": 50.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
