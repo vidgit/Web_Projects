@@ -35,10 +35,12 @@
                   <li class="media" ng-repeat="dish in menuCtrl.dishes">
 
                     <div class="media-left media-middle">
+
                       <a href="#">
                         <img class="media-object img-thumbnail"
                         ng-src={{dish.image}} alt="Uthappizza">
                       </a>
+
                     </div>
 
                     <div class="media-body">
@@ -52,6 +54,7 @@
                       <p>Comment: {{dish.comment}}</p>
                       <p>Type your comment:
                       <input type="text" ng-model="dish.comment"></p>
+
                     </div>
 
                   </li>
@@ -63,7 +66,7 @@
 
     </div>
 
-<script src="../bower_components/angular/angular.min.js"></script>
+    <script src="../bower_components/angular/angular.min.js"></script>
     <script>
 
       var app = angular.module('confusionApp',[]);
@@ -112,7 +115,7 @@
 
           this.dishes = dishes;
       });
-      
+
     </script>
 </body>
 
