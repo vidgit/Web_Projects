@@ -4,6 +4,18 @@
 		"selected_items":
 		[
 			[
+				"css",
+				"cssmin"
+			],
+			[
+				"asse",
+				"assetDirs"
+			],
+			[
+				"use",
+				"useminPrepare"
+			],
+			[
 				"app",
 				"appetizer"
 			],
@@ -355,7 +367,15 @@
 			"file": "conFusion/app/menu.html",
 			"settings":
 			{
-				"buffer_size": 6146,
+				"buffer_size": 3605,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "conFusion/app/scripts/app.js",
+			"settings":
+			{
+				"buffer_size": 2490,
 				"line_ending": "Windows"
 			}
 		},
@@ -363,19 +383,25 @@
 			"file": "conFusion/app/dishdetail.html",
 			"settings":
 			{
-				"buffer_size": 5588,
+				"buffer_size": 5587,
 				"line_ending": "Unix"
 			}
 		},
 		{
-			"contents": "{\n	\"name\": \"conFusion\",\n	\"private\": true,\n	\"devDependencies\":{\n\n	},\n	\"engines\": {\n		\"node\": \">=0.10.0\"\n	}\n}",
-			"file": "conFusion/package.json",
-			"file_size": 0,
-			"file_write_time": 131174604369945979,
+			"file": "conFusion/Gruntfile.js",
 			"settings":
 			{
-				"buffer_size": 107,
+				"buffer_size": 3210,
 				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "conFusion/.jshintrc",
+			"settings":
+			{
+				"buffer_size": 224,
+				"line_ending": "Windows",
+				"name": "{"
 			}
 		}
 	],
@@ -442,11 +468,17 @@
 	[
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app",
-		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/bower_components",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/scripts",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/bower_components/angular"
 	],
 	"file_history":
 	[
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/dist/menu.html",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/dist/scripts/main.js",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/package.json",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/scripts/app.js",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/app.js",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/gruntFile.js",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/index.html",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/aboutus.html",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/dishdetail (2).html",
@@ -568,13 +600,7 @@
 		"/C/Users/Vibhor Joshi/AppData/Local/Temp/Rar$DIa0.528/max_min.py",
 		"/C/Users/Vibhor Joshi/AppData/Local/Temp/Rar$DIa0.749/max_min.py",
 		"/C/Users/Vibhor Joshi/AppData/Local/Temp/Rar$DIa0.120/2013A8PS511G_1.py",
-		"/D/Sem 3-2/Data Structures and Algorithms/interview-master/interview-master/src/com/interview/graph/DirectedGraphConnectivity.java",
-		"/D/Coursera/Algorithms Specialization/Course 1/Week 2/1-intro-starter-files/fibonacci/fib.py",
-		"/D/Coursera/Algorithms Specialization/Course 1/Week 4/divideandconquer-starter-files/binary_search/binary_search.py",
-		"/D/Sem 3-2/Data Structures and Algorithms/Compre PRep/Divide/sorting.py",
-		"/D/Sem 3-2/Data Structures and Algorithms/interview-master/interview-master/src/com/interview/graph/DisjointSet.java",
-		"/C/Users/Vibhor Joshi/Desktop/SOP/sopp/generate_graph.py",
-		"/D/Sem 3-2/Data Structures and Algorithms/Compre PRep/Q1_Rohith.py"
+		"/D/Sem 3-2/Data Structures and Algorithms/interview-master/interview-master/src/com/interview/graph/DirectedGraphConnectivity.java"
 	],
 	"find":
 	{
@@ -638,15 +664,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6146,
+						"buffer_size": 3605,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								2504,
-								2504
+								1657,
+								1657
 							]
 						],
 						"settings":
@@ -656,7 +682,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 870.0,
+						"translation.y": 400.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
@@ -664,19 +690,49 @@
 				},
 				{
 					"buffer": 1,
-					"file": "conFusion/app/dishdetail.html",
+					"file": "conFusion/app/scripts/app.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 5588,
+						"buffer_size": 2490,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								5542,
-								5542
+								2379,
+								2379
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": -0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "conFusion/app/dishdetail.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5587,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								733,
+								733
 							]
 						],
 						"settings":
@@ -686,38 +742,67 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 399.0,
+						"translation.y": 990.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
-					"buffer": 2,
-					"file": "conFusion/package.json",
+					"buffer": 3,
+					"file": "conFusion/Gruntfile.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 107,
+						"buffer_size": 3210,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								101,
-								101
+								3165,
+								3165
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax"
+						},
+						"translation.x": 0.0,
+						"translation.y": 2241.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "conFusion/.jshintrc",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 224,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								223,
+								224
+							]
+						],
+						"settings":
+						{
+							"auto_name": "{",
+							"syntax": "Packages/Text/Plain text.tmLanguage"
 						},
 						"translation.x": 0.0,
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -800,7 +885,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 81.0,
+	"side_bar_width": 216.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
