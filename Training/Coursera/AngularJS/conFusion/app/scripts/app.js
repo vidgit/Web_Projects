@@ -154,5 +154,30 @@ angular.module('confusionApp',[])
                     };
             
         }])
+
+  .controller('DishCommentController',['$scope', function($scope){
+
+        $scope.Comment={
+                        author:"",
+                        rating:5,
+                        comment:"",
+                  };
+
+        $scope.submitComment= function(){
+          
+          if(!$scope.commentForm.$invalid)
+            {
+              var date = new Date();
+              $scope.Comment.date=date;
+              $scope.dish.comment.push($scope.Comment);
+              $scope.Comment={
+                        author:"",
+                        rating:5,
+                        comment:"",
+                  };
+              $scope.commentForm.$setPristine();
+          }
+        }
+  }])
 ;
 
