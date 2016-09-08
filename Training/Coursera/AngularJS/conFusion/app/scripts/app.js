@@ -164,12 +164,11 @@ angular.module('confusionApp',[])
                   };
 
         $scope.submitComment= function(){
-          
           if(!$scope.commentForm.$invalid)
             {
               var date = new Date();
               $scope.Comment.date=date;
-              $scope.dish.comment.push($scope.Comment);
+              $scope.dish.comments.push($scope.Comment);
               $scope.Comment={
                         author:"",
                         rating:5,
