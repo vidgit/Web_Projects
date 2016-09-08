@@ -2,7 +2,7 @@
 <html lang="en" ng-app="confusionApp">
 
 <head>
-     <meta charset="utf-8">
+    <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <!-- The above 3 meta tags *must* come first in the head; any other head
@@ -39,18 +39,19 @@
                         </a>
 
                     </div>
+
+                    <div class="media-body">
+
+                        <h2 class="media-heading">{{dish.name}}
+                          <span class="label label-danger">{{dish.label}}</span>
+                          <span class="badge">{{dish.price | currency}}</span>
+                        </h2>
+
+                        <p>{{dish.description}}</p>
+                                
+                    </div>
                 </div>
             </div>
-            <div class="media-body">
-
-                    <h2 class="media-heading">{{dish.name}}
-                      <span class="label label-danger">{{dish.label}}</span>
-                      <span class="badge">{{dish.price | currency}}</span>
-                    </h2>
-
-                    <p>{{dish.description}}</p>
-                            
-                </div>
             <div class="col-xs-9 col-xs-offset-1">
                 <p><strong><span class="h4">Customer Comments&nbsp;</span></strong>
                 Sort by: <input type="text" ng-model="orderText"></p>
@@ -78,8 +79,37 @@
                     </ul>
                 <form class="form-horizontal" name="commentForm"
                 		ng-submit="submitComment()" novalidate>
-					<p>Task 1: Design the form to submit the comments</p>
-					<p>Task 2: You need to validate that the user name and comments are entered</p>
+					<div class="form-group">
+                        
+                        <label for="firstname" class="col-sm-2 control-label">Your Name</label>
+                        <div class="col-sm-10">
+                        <input type="text" class="form-control" id="firstname" name="firstname" placeholder="Enter Your Name" required>
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+
+                        <label for="numberOfStars" class="col-sm-2 control-label">Number of Stars</label>
+                        <div class="col-sm-10" id="numberOfStars" name="numberOfStars">
+                            <label class="radio-inline"><input type="radio" name="stars"/> 1</label>
+                            <label class="radio-inline"><input type="radio" name="stars"/> 2</label>
+                            <label class="radio-inline"><input type="radio" name="stars"/> 3</label>
+                            <label class="radio-inline"><input type="radio" name="stars"/> 4</label>
+                            <label class="radio-inline"><input type="radio" name="stars"/> 5</label>
+                        </div>
+
+                    </div>
+                    <div class="form-group">
+                        <label for="comment" class="col-sm-2 control-label">Your Comments</label>
+                        <div class="col-sm-10">
+                            <textarea id="comment" class="form-control" name="comment" rows="12"></textarea>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <div class="col-sm-offset-2 col-sm-10">
+                            <button type="submit" class="btn btn-primary">Submit Comment</button>
+                        </div>
+                    </div>
                 </form>
             </div>
         </div>
