@@ -161,6 +161,7 @@ angular.module('confusionApp',[])
                         author:"",
                         rating:5,
                         comment:"",
+                        date:""
                   };
 
         $scope.submitComment= function(){
@@ -173,6 +174,7 @@ angular.module('confusionApp',[])
                         author:"",
                         rating:5,
                         comment:"",
+                        date:""
                   };
               $scope.commentForm.$setPristine();
           }
