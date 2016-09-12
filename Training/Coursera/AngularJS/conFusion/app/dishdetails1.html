@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html lang="en" ng-app="confusionApp">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- The above 3 meta tags *must* come first in the head; any other head
+         content must come *after* these tags -->
+    <title>Ristorante Con Fusion: Menu</title>
+    <!-- Bootstrap -->
+    <link href="../bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet">
+    <link href="../bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+    <link href="styles/bootstrap-social.css" rel="stylesheet">
+    <link href="styles/mystyles.css" rel="stylesheet">
+
+    <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/html5shiv/3.7.2/html5shiv.min.js"></script>
+      <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+
+<body>
+
+    <div class="container">
+        <div class="row row-content" ng-controller="dishDetailController">
+            <div class="col-xs-12">
+                <div class="media">
+                    <div class="media-left media-middle">
+                        <a href="#">
+                            <img class="media-object img-thumbnail" src="images/uthapizza.png" alt="Uthapizza">
+                        </a>
+                    </div>
+                    <div class="media-body">
+                        <h2 class="media-heading">Uthppizza <span class="label label-danger label-xs">Hot</span> <span class="badge">$4.99</span>                         
+                        </h2>
+                        <p>A unique combination of Indian Uthappam (pancake) and Italian pizza, topped with Cerignola olives, ripe vine cherry tomatoes, Vidalia onion, Guntur chillies and Buffalo Paneer.</p>
+
+                    </div>
+                    <div class="col-xs-3 col-xs-offset-1">
+                        <h4>Customer Comments</h4>
+                    </div>
+                    <div class="col-xs-6" style="margin-top: 5px">
+                        <label for="order" style="color: silver">
+                            Sort By :
+                        </label>
+                        <input id="order" type="text" ng-model="order">
+                    </div>
+                </div>
+            </div>
+            <div class="col-xs-9 col-xs-offset-1" ng-controller="CommentController">
+                <br>
+
+
+                <ul>
+                    <blockquote ng-repeat="comment in dish.comments | orderBy : order ">
+                        <p>{{comment.rating}} Stars</p>
+                        <p>{{comment.comment}}</p>
+                        <footer>{{comment.author}}, {{comment.date | date}}</footer>
+                    </blockquote>
+                </ul>
+                <ul ng-show="commentForm.$valid && !commentForm.$pristine">
+                    <blockquote>
+                        <p>{{comment.rating}} Stars</p>
+                        <p>{{comment.comment}}</p>
+                        <footer>{{comment.author}}, {{comment.date | date}}</footer>
+                    </blockquote>
+                </ul>
+                <form class="form-horizontal" role="form" name="commentForm" ng-submit="sendComment()" novalidate>
+                    <div class="form-group" ng-class="{ 'has-error': commentForm.author.$error.required && !commentForm.author.$pristine}">
+
+                        <label class="col-xs-2 control-label" for="author">Your Name</label>
+
+                        <div class="col-xs-10" ng-class="">
+                            <input type="text" class="form-control" name="author" id="author" placeholder="Enter Your Name" ng-model="comment.author" required>
+                            <span ng-show="commentForm.author.$error.required && !commentForm.author.$pristine" class="help-block">Your name is required</span>
+                        </div>
+
+                    </div>
+
+                    <div class="form-group">
+                        <label class="col-xs-2 control-label" for="rate">Number Of Stars</label>
+
+                        <div class="col-xs-10">
+                            <label class="radio-inline"><input type="radio" name="rate" value="1" ng-model="comment.rating">1</label>
+
+                            <label class="radio-inline"><input type="radio" name="rate" value="2" ng-model="comment.rating">2</label>
+
+                            <label class="radio-inline"><input type="radio" name="rate" value="3" ng-model="comment.rating">3</label>
+
+                            <label class="radio-inline"><input type="radio" name="rate" value="4" ng-model="comment.rating">4</label>
+
+                            <label class="radio-inline"><input type="radio" name="rate" value="5" ng-model="comment.rating">5</label>
+                        </div>
+                    </div>
+
+                    <div class="form-group" ng-class="{ 'has-error': commentForm.comment.$error.required && !commentForm.comment.$pristine}">
+                        <label for="comment" class="col-xs-2 control-label">Your Comment</label>
+                        <div class="col-xs-10">
+                            <textarea class="form-control" name="comment" rows="6" ng-model="comment.comment" required></textarea>
+                            <span ng-show="commentForm.comment.$error.required && !commentForm.comment.$pristine" class="help-block">Your comment is required</span>
+                        </div>
+                    </div>
+
+                    <div class="form-group">
+                        <div class="col-xs-10 col-xs-offset-2">
+                            <button type="submit" class="btn btn-primary" ng-disabled="commentForm.$invalid">Send Comment</button>
+                        </div>
+                    </div>
+                    
+                    
+                </form>
+                
+
+
+            </div>
+            
+        </div>
+
+
+
+
+    </div>
+
+    <script src="../bower_components/angular/angular.min.js"></script>
+    <script src="scripts/app1.js"></script>
+
+</body>
+
+</html>

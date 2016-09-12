@@ -1,7 +1,7 @@
 'use strict';
+angular.module('confusionApp')
 
-angular.module('confusionApp',[])
- .controller('MenuController', ['$scope','menuFactory',function($scope,menuFactory){
+  .controller('MenuController', ['$scope','menuFactory',function($scope,menuFactory){
 
       $scope.tab = 1;
       $scope.filtText = '';
@@ -72,6 +72,7 @@ angular.module('confusionApp',[])
 
             $scope.orderText="";
             $scope.dish=menuFactory.getDish(3);
+
             
         }])
 
@@ -101,3 +102,4 @@ angular.module('confusionApp',[])
         };
   }])
 ;
+
