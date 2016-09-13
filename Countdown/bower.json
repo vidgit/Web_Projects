@@ -1,0 +1,29 @@
+{
+  "name": "countdown",
+  "version": "1.0.0",
+  "description": "Website for countdown",
+  "main": "index.html",
+  "moduleType": [],
+  "keywords": [
+    "countdown",
+    "timer",
+    "clock"
+  ],
+  "authors": [
+    "vibhor joshi"
+  ],
+  "license": "None",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "~3.3.7",
+    "font-awesome": "~4.6.3",
+    "angular": "~1.5.8"
+  }
+}
