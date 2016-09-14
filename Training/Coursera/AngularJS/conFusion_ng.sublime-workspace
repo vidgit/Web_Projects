@@ -4,6 +4,10 @@
 		"selected_items":
 		[
 			[
+				"template",
+				"templateUrl"
+			],
+			[
 				"cont",
 				"contactus"
 			],
@@ -379,7 +383,7 @@
 			"file": "conFusion/app/scripts/app.js",
 			"settings":
 			{
-				"buffer_size": 646,
+				"buffer_size": 1613,
 				"line_ending": "Windows"
 			}
 		},
@@ -470,9 +474,7 @@
 	"expanded_folders":
 	[
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion",
-		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app",
-		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/scripts",
-		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/node_modules/browser-sync/lib"
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app"
 	],
 	"file_history":
 	[
@@ -658,7 +660,7 @@
 	"groups":
 	[
 		{
-			"selected": 2,
+			"selected": 1,
 			"sheets":
 			[
 				{
@@ -697,15 +699,15 @@
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 646,
+						"buffer_size": 1613,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								571,
-								571
+								1600,
+								1600
 							]
 						],
 						"settings":
@@ -718,7 +720,7 @@
 						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
+					"stack_index": 0,
 					"type": "text"
 				},
 				{
@@ -734,8 +736,8 @@
 						"selection":
 						[
 							[
-								2057,
-								2058
+								2004,
+								2004
 							]
 						],
 						"settings":
@@ -744,11 +746,11 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 25.0,
-						"translation.y": 630.0,
+						"translation.x": 32.0,
+						"translation.y": 585.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 1,
 					"type": "text"
 				},
 				{
@@ -805,7 +807,7 @@
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 225.0,
+						"translation.y": 0.0,
 						"zoom_level": 1.0
 					},
 					"stack_index": 2,
