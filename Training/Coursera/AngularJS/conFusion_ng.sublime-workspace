@@ -4,6 +4,42 @@
 		"selected_items":
 		[
 			[
+				"get",
+				"getLeader"
+			],
+			[
+				"ng-c",
+				"ng-controller	AngularJS"
+			],
+			[
+				"view",
+				"viewmin"
+			],
+			[
+				"ng-s",
+				"ng-src	AngularJS"
+			],
+			[
+				"About",
+				"AboutController"
+			],
+			[
+				"ng-re",
+				"ng-repeat	AngularJS"
+			],
+			[
+				"getle",
+				"getLeader"
+			],
+			[
+				"getL",
+				"getLeaders"
+			],
+			[
+				"prom",
+				"promotions"
+			],
+			[
 				"template",
 				"templateUrl"
 			],
@@ -240,10 +276,6 @@
 				"opening_brackets_stack"
 			],
 			[
-				"get",
-				"getRight"
-			],
-			[
 				"index",
 				"index"
 			],
@@ -372,42 +404,10 @@
 	"buffers":
 	[
 		{
-			"file": "conFusion/app/index.html",
+			"file": "json-server/db.json",
 			"settings":
 			{
-				"buffer_size": 6388,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "conFusion/app/scripts/app.js",
-			"settings":
-			{
-				"buffer_size": 1613,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "conFusion/app/scripts/controllers.js",
-			"settings":
-			{
-				"buffer_size": 2919,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "conFusion/app/scripts/services.js",
-			"settings":
-			{
-				"buffer_size": 8944,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "conFusion/app/menu.html",
-			"settings":
-			{
-				"buffer_size": 2273,
+				"buffer_size": 7949,
 				"line_ending": "Windows"
 			}
 		}
@@ -478,15 +478,28 @@
 	],
 	"file_history":
 	[
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/menu.html",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/home.html",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/gulpfile.js",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/dishdetail.html",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/scripts/controllers.js",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/scripts/services.js",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/index.html",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/aboutus.html",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/aboutus.html",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/bower.json",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Countdown/bower.json",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/scripts/app.js",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/index.html",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/footer.html",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/header.html",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/menu.html",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/dishdetail.html",
-		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/gulpfile.js",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/node_modules/browser-sync/lib/browser-sync.js",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/node_modules/browser-sync/lib/public/init.js",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/dishdetail (2).html",
 		"/C/Users/Vibhor Joshi/Desktop/conn.rdp",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/dishdetail1.html",
-		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/scripts/app.js",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/package.json",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/Gruntfile.js",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/.jshintrc",
@@ -494,8 +507,6 @@
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/dist/scripts/main.js",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/app.js",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/gruntFile.js",
-		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/index.html",
-		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/aboutus.html",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/bower.json",
 		"/D/Video/HTML5/test/index1.html",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/contactus.html",
@@ -594,18 +605,7 @@
 		"/C/Users/Vibhor Joshi/Desktop/SOP/sopp/Graph_Creator.py",
 		"/C/Users/Vibhor Joshi/Desktop/SOP/sopp/gen1.py",
 		"/D/Coursera/Python Analytics/Databases With Python/Week 4/roster_data.json",
-		"/C/Users/Vibhor Joshi/AppData/Local/Temp/Rar$DIa0.494/grade.py",
-		"/D/Coursera/Algorithms Specialization/Course 2/Week 1/Starters PA1/check_brackets_in_code/check_brackets.java",
-		"/C/Users/Vibhor Joshi/Documents/GitHub/Data Structures/SparseArray.java",
-		"/C/Users/Vibhor Joshi/Documents/GitHub/Data Structures/DynamicArray.java",
-		"/C/Users/Vibhor Joshi/Documents/GitHub/Data Structures/Hourglass.java",
-		"/C/Users/Vibhor Joshi/Documents/GitHub/Data Structures/tester.java",
-		"/C/Users/Vibhor Joshi/Desktop/hash.py",
-		"/C/Users/Vibhor Joshi/Desktop/SOP/sopp/Cluster_Graph.py",
-		"/C/Users/Vibhor Joshi/Desktop/SOP/sopp/full.py",
-		"/C/Users/Vibhor Joshi/Desktop/SOP/sopp/gen2.py",
-		"/D/Chrome DL/Months/April 2016/test2.py",
-		"/D/Sem 3-2/Information Retrieval/similarity.py"
+		"/C/Users/Vibhor Joshi/AppData/Local/Temp/Rar$DIa0.494/grade.py"
 	],
 	"find":
 	{
@@ -620,9 +620,10 @@
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
+			"dishD",
 			">\n",
 			"loginModal",
 			"reservationModal",
@@ -660,157 +661,35 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "conFusion/app/index.html",
+					"file": "json-server/db.json",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 6388,
+						"buffer_size": 7949,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								3689,
-								3689
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
+							"syntax": "Packages/JavaScript/JSON.sublime-syntax"
 						},
 						"translation.x": 0.0,
-						"translation.y": 510.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "conFusion/app/scripts/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 1613,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1600,
-								1600
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "conFusion/app/scripts/controllers.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2919,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								2004,
-								2004
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 32.0,
 						"translation.y": 585.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "conFusion/app/scripts/services.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 8944,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								4423,
-								4423
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 45.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "conFusion/app/menu.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2273,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1498,
-								1498
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
+					"stack_index": 0,
 					"type": "text"
 				}
 			]
@@ -847,6 +726,10 @@
 		]
 	},
 	"menu_visible": true,
+	"output.exec":
+	{
+		"height": 25.0
+	},
 	"output.find_results":
 	{
 		"height": 0.0
@@ -893,7 +776,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 50.0,
+	"side_bar_width": 203.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
