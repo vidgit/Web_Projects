@@ -9,7 +9,7 @@
                <ul class="nav nav-tabs" role="tablist">
 
                   <li role="presentation" ng-class="{active:isSelected(1)}">
-                    <a ng-click="select(1)" aria-controls="all menu" role="tab">The Menu</a>
+                    <a ng-click="select(1)" aria-controls="all menu" role="tab">Menu</a>
                   </li>
                   <li role="presentation" ng-class="{active:isSelected(2)}">
                     <a ng-click="select(2)" aria-controls="appetizers" role="tab">Appetizers</a>
@@ -30,7 +30,7 @@
 
                         <div class="media-left media-middle">
 
-                          <a ui-sref="app.dishdetails({id: dish._id})">
+                          <a ui-sref="app.dishdetails({id: dish.id})">
                             <img class="media-object img-thumbnail"
                             ng-src={{dish.image}} alt="Uthappizza">
                           </a>
