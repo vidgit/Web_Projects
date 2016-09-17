@@ -93,7 +93,7 @@ angular.module('confusionApp')
                     $scope.showDish = true;
                 },
                 function(response){
-                    $scope.message = "Error: "+response.status+" "+ reponse.statusText;
+                    $scope.message = "Error: "+response.status+" "+ response.statusText;
                 }
                 );
             
