@@ -27,7 +27,7 @@ gulp.task('clean', function() {
 
 // Default task
 gulp.task('default', ['clean'], function() {
-    gulp.start('usemin', 'imagemin','copyfonts','viewmin');
+    gulp.start('usemin', 'imagemin','copyfonts');
 });
 
 gulp.task('usemin',['jshint'], function () {
@@ -86,8 +86,7 @@ gulp.task('browser-sync', ['default'], function () {
         server: {
         baseDir: 'dist',
         index: 'index.html'
-        },
-        reloadDelay: 1000
+        }
     });
         // Watch any files in dist/, reload on change
   gulp.watch(['dist/**']).on('change', browserSync.reload);

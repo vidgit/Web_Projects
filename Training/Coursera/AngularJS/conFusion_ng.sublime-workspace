@@ -4,166 +4,462 @@
 		"selected_items":
 		[
 			[
-				"show",
-				"showDish"
+				"get",
+				"getLeader"
 			],
 			[
-				"pr",
-				"promotion"
+				"ng-c",
+				"ng-controller	AngularJS"
 			],
 			[
-				"resp",
-				"response"
+				"view",
+				"viewmin"
 			],
 			[
-				"fun",
-				"function"
+				"ng-s",
+				"ng-src	AngularJS"
 			],
 			[
-				"mu",
-				"menuFactory"
+				"About",
+				"AboutController"
+			],
+			[
+				"ng-re",
+				"ng-repeat	AngularJS"
+			],
+			[
+				"getle",
+				"getLeader"
+			],
+			[
+				"getL",
+				"getLeaders"
+			],
+			[
+				"prom",
+				"promotions"
+			],
+			[
+				"template",
+				"templateUrl"
+			],
+			[
+				"cont",
+				"contactus"
+			],
+			[
+				"css",
+				"cssmin"
+			],
+			[
+				"asse",
+				"assetDirs"
+			],
+			[
+				"use",
+				"useminPrepare"
+			],
+			[
+				"app",
+				"appetizer"
+			],
+			[
+				"fil",
+				"filtText"
+			],
+			[
+				"rese",
+				"reservationModal"
+			],
+			[
+				"log",
+				"loginBtn"
+			],
+			[
+				"car",
+				"carousel-pause"
+			],
+			[
+				"p",
+				"placeholder	Attr"
+			],
+			[
+				"Poke",
+				"PokemonId"
+			],
+			[
+				"max",
+				"max-width"
+			],
+			[
+				"marg",
+				"margin"
+			],
+			[
+				"au",
+				"autofocus	Attr"
+			],
+			[
+				"hea",
+				"header	Tag"
+			],
+			[
+				"margin",
+				"margin-left"
+			],
+			[
+				"out",
+				"outline-width"
+			],
+			[
+				"colo",
+				"outline-color"
+			],
+			[
+				"fo",
+				"footer	Tag"
+			],
+			[
+				"h",
+				"h1	Tag"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"back",
+				"background-color"
+			],
+			[
+				"ti",
+				"title	Tag"
+			],
+			[
+				"read",
+				"readIntArray"
+			],
+			[
+				"prin",
+				"printArr"
+			],
+			[
+				"i",
+				"i"
+			],
+			[
+				"n",
+				"n"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"Y",
+				"Year"
+			],
+			[
+				"m",
+				"Moustaches"
+			],
+			[
+				"M",
+				"My_Age"
+			],
+			[
+				"My",
+				"My_Birth_Year"
+			],
+			[
+				"thi",
+				"this_year"
 			],
 			[
 				"text",
-				"textarea	Tag"
+				"text-align"
 			],
 			[
-				"in",
-				"inputColor"
+				"a",
+				"assignedWorker"
 			],
 			[
-				"inline",
-				"inline"
+				"st",
+				"startTime"
+			],
+			[
+				"job",
+				"jobs"
+			],
+			[
+				"si",
+				"siftDown"
+			],
+			[
+				"swa",
+				"Swap"
+			],
+			[
+				"le",
+				"length"
+			],
+			[
+				"l",
+				"length"
+			],
+			[
+				"pr",
+				"println"
+			],
+			[
+				"vis",
+				"visited"
+			],
+			[
+				"se",
+				"stack_size	function"
+			],
+			[
+				"del",
+				"delimiter"
+			],
+			[
+				"ma",
+				"matplotlib"
+			],
+			[
+				"arr_",
+				"arr_length	statement"
+			],
+			[
+				"slice",
+				"slice_of_arr	statement"
+			],
+			[
+				"sli",
+				"slice_of_arr	statement"
+			],
+			[
+				"sl",
+				"slice_of_arr	statement"
+			],
+			[
+				"my",
+				"my_array2	statement"
+			],
+			[
+				"my_",
+				"my_array2	statement"
+			],
+			[
+				"myl",
+				"my_lists	statement"
+			],
+			[
+				"user",
+				"user_id"
+			],
+			[
+				"u",
+				"user_id"
+			],
+			[
+				"ope",
+				"opening_brackets_stack"
+			],
+			[
+				"po",
+				"position"
+			],
+			[
+				"op",
+				"opening_brackets_stack"
+			],
+			[
+				"index",
+				"index"
+			],
+			[
+				"val",
+				"val"
+			],
+			[
+				"C",
+				"ClusterNo"
+			],
+			[
+				"cs",
+				"csvfile"
+			],
+			[
+				"csv",
+				"csv_file"
+			],
+			[
+				"bu",
+				"build_Cluster"
+			],
+			[
+				"b",
+				"build_from_csv"
+			],
+			[
+				"Coo",
+				"CoordinateX"
+			],
+			[
+				"w",
+				"write_to_csv"
+			],
+			[
+				"__g",
+				"__getitem__	function"
+			],
+			[
+				"or",
+				"orig_labels0	statement"
+			],
+			[
+				"ori",
+				"orig_labels	statement"
+			],
+			[
+				"ver",
+				"vectors_np0	statement"
+			],
+			[
+				"y",
+				"y_test0	statement"
+			],
+			[
+				"x",
+				"X_test0	statement"
+			],
+			[
+				"X",
+				"X_test	statement"
+			],
+			[
+				"X_t",
+				"X_train	statement"
+			],
+			[
+				"th",
+				"threshold"
+			],
+			[
+				"word",
+				"word_removal	function"
+			],
+			[
+				"add",
+				"add_vertices"
+			],
+			[
+				"gen",
+				"genre_id	statement"
+			],
+			[
+				"rand",
+				"randomized_quick_sort	function"
+			],
+			[
+				"heapp",
+				"heappush	function"
+			],
+			[
+				"heap",
+				"heappop	function"
+			],
+			[
+				"s",
+				"s	param"
+			],
+			[
+				"c",
+				"crawled_file"
+			],
+			[
+				"f",
+				"file_to_set"
+			],
+			[
+				"qu",
+				"queue_file"
+			],
+			[
+				"cr",
+				"crawled"
+			],
+			[
+				"pa",
+				"page_url"
+			],
+			[
+				"att",
+				"attribute"
 			]
 		]
 	},
 	"buffers":
 	[
 		{
-			"file": "conFusion/app/scripts/app.js",
-			"settings":
-			{
-				"buffer_size": 2179,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "conFusion/app/scripts/services.js",
-			"settings":
-			{
-				"buffer_size": 4476,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "conFusion/app/scripts/controllers.js",
-			"settings":
-			{
-				"buffer_size": 5072,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "conFusion/app/views/dishdetail.html",
-			"settings":
-			{
-				"buffer_size": 5675,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "conFusion/app/views/home.html",
-			"settings":
-			{
-				"buffer_size": 3285,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "conFusion/app/index.html",
-			"settings":
-			{
-				"buffer_size": 1771,
-				"line_ending": "Windows"
-			}
-		},
-		{
 			"file": "conFusion/gulpfile.js",
 			"settings":
 			{
-				"buffer_size": 2704,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "conFusion/app/views/menu.html",
-			"settings":
-			{
-				"buffer_size": 2410,
+				"buffer_size": 2667,
 				"line_ending": "Windows"
 			}
 		}
 	],
-	"build_system": "",
+	"build_system": "Packages/Python/Python.sublime-build",
 	"build_system_choices":
 	[
-		[
-			[
-				[
-					"Packages/Python/Python.sublime-build",
-					""
-				],
-				[
-					"Packages/Python/Python.sublime-build",
-					"Syntax Check"
-				]
-			],
-			[
-				"Packages/Python/Python.sublime-build",
-				""
-			]
-		]
 	],
 	"build_varint": "",
 	"command_palette":
 	{
 		"height": 104.0,
-		"last_filter": "Package Control: install ",
+		"last_filter": "Package Control: install",
 		"selected_items":
 		[
-			[
-				"Package Control: install ",
-				"Package Control: Install Package"
-			],
-			[
-				"Package Control: ins",
-				"Package Control: Install Package"
-			],
-			[
-				"Package Control: li",
-				"Package Control: List Packages"
-			],
-			[
-				"Package Control: insta",
-				"Package Control: Install Package"
-			],
 			[
 				"Package Control: install",
 				"Package Control: Install Package"
 			],
 			[
-				"Package Control: in",
+				"Package Control: inst",
 				"Package Control: Install Package"
+			],
+			[
+				"Package Control: ",
+				"Package Control: List Packages"
+			],
+			[
+				"Package Control: install ",
+				"Package Control: Install Package"
+			],
+			[
+				"syntax",
+				"Set Syntax: Python"
+			],
+			[
+				"pack",
+				"Package Control: Install Package"
+			],
+			[
+				"",
+				"Build With: Python - Syntax Check"
 			]
 		],
-		"width": 400.0
+		"width": 416.0
 	},
 	"console":
 	{
 		"height": 126.0,
 		"history":
 		[
-			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by) "
+			"import urllib.request,os,hashlib; h = '2915d1851351e5ee549c20394736b442' + '8bc59f460fa1548d1514676163dafc88'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
 		]
 	},
 	"distraction_free":
@@ -177,118 +473,138 @@
 	},
 	"expanded_folders":
 	[
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion",
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app",
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/scripts",
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views"
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion"
 	],
 	"file_history":
 	[
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/menu.html",
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/gulpfile.js",
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/contactus.html",
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/aboutus.html",
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/dishdetail.html",
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/home.html",
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/scripts/services.js",
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/scripts/controllers.js",
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/scripts/app.js",
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/dishdetail.html",
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/dishdetail (2).html",
-		"/C/Users/vibjoshi/Desktop/test.html",
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/scripts/app1.js",
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/dishdetails1.html",
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/contactus.html",
-		"/D/code/Web_Projects/Training/Practice/Angular_bkp/app.js",
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/menu.html",
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/index.html",
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/dist/scripts/main-187b00eb3f.js",
-		"/D/code/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/index.html",
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/dishdetail_template.html",
-		"/D/code/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/contactus.html",
-		"/C/Users/vibjoshi/Documents/TechniqueRegistration.java",
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/dist/scripts/main-ff04d18a61.js",
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/app.js",
-		"/D/code/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/css/mystyles.css",
-		"/D/code/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/aboutus.html",
-		"/D/code/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/testing.html",
-		"/C/Users/vibjoshi/Desktop/index.html",
-		"/D/workspace/ofsaa804/ofsaa/WebContent/modeling/scripts/variable/variable.js",
-		"/D/code/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/index1.html",
-		"/D/code/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/index2.html",
-		"/D/code/index.html",
-		"/C/Users/vibjoshi/AppData/Local/Temp/scp09266/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/modeling/variable/variable_definition_add.jsp",
-		"/D/Softwares/Sublime Text 3/Html/Course 2 UI/Week 2/contactus.html",
-		"/D/code/ThousandsPrime.java",
-		"/D/code/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/template.html",
-		"/D/code/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/bootstrap/conFusion/index.html",
-		"/D/code/ThousandsPrime.py",
-		"/D/code/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/template.html",
-		"/D/code/Web_Projects/template.html",
-		"/D/code/help.py",
-		"/D/code/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/bootstrap/readme.md",
-		"/D/Softwares/Sublime Text 3/Packages/anaconda-1.4.4/README.md",
-		"/C/Users/vibjoshi/AppData/Roaming/Sublime Text 3/Packages/User/Package Control.sublime-settings",
-		"/D/code/New folder/C1 A1/project/index.html",
-		"/D/code/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/readme.md",
-		"/C/Users/vibjoshi/AppData/Roaming/Sublime Text 3/Packages/Package Control/Package Control.sublime-settings",
-		"/D/Softwares/Sublime Text 3/Packages/Package Control.sublime-package",
-		"/C/Users/vibjoshi/AppData/Local/Temp/scp40566/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/StressTesting/varshocklib/variable_shock_lib_new.jsp",
-		"/D/code/New folder/C1 A3/project/index.html",
-		"/D/workspace/ofsaa804/ofsaa/WebContent/StressTesting/varshocklib/variable_shock_lib_new.jsp",
-		"/C/Users/vibjoshi/AppData/Local/Temp/scp34638/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/StressTesting/stressdef/stress_definition_RRF.jsp",
-		"/D/workspace/ofsaa804/ofsaa/WebContent/StressTesting/stressdef/stress_definition_RRF.jsp",
-		"/D/workspace/ofsaa804/ofsaa/WebContent/StressTesting/stressdef/stress_definition.jsp",
-		"/C/Users/vibjoshi/AppData/Local/Temp/scp34455/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/StressTesting/stressdef/stress_definition.jsp",
-		"/D/workspace/ofsaa804/ofsaa/WebContent/StressTesting/stressdef/stress_summary.jsp",
-		"/C/Users/vibjoshi/AppData/Local/Temp/scp28017/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/StressTesting/stressdef/stress_summary.jsp",
-		"/C/Users/vibjoshi/AppData/Local/Temp/scp03059/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/modeling/deployment/model_deployment.jsp",
-		"/D/workspace/ofsaa804/ofsaa/WebContent/modeling/deployment/model_deployment.jsp",
-		"/D/workspace/ofsaa804/ofsaa/WebContent/modeling/deployment/model_deployment_log.jsp",
-		"/C/Users/vibjoshi/AppData/Local/Temp/scp03770/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/modeling/deployment/model_deployment_log.jsp",
-		"/D/workspace/ofsaa804/ofsaa/WebContent/modeling/execution/req_model_execution_summary.jsp",
-		"/D/Softwares/Presentation_Notes_and_Examples/03_Advanced_JavaScript/3-06_an_example_dom_project/3-06_an_example_dom_project/01_dom_colorful_pattern_js.js",
-		"/D/Softwares/Presentation_Notes_and_Examples/03_Advanced_JavaScript/3-06_an_example_dom_project/3-06_an_example_dom_project/01_dom_colorful_pattern.html",
-		"/D/Softwares/Sublime Text 3/Html/Week 3 Assignment/part1.html",
-		"/D/Softwares/Sublime Text 3/Html/Week 3 Assignment/part2.html",
-		"/D/Softwares/Sublime Text 3/Html/Week 3 Assignment/part3.html",
-		"/D/Softwares/Sublime Text 3/Html/Week 3 Assignment/part4.html",
-		"/D/Softwares/Sublime Text 3/Html/Week 3 Assignment/hw.py",
-		"/D/restpython/rest.py",
-		"/C/Users/vibjoshi/AppData/Local/Temp/scp15695/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/StressTesting/stressdef/treeBrowserRRF.jsp",
-		"/C/Users/vibjoshi/AppData/Local/Temp/scp39793/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/modeling/execution/req_model_execution_summary.jsp",
-		"/C/Users/vibjoshi/AppData/Local/Temp/scp53751/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/StressTesting/varshocklib/Hierarchy_Br_filter.jsp",
-		"/D/workspace/ofsaa804/ofsaa/WebContent/StressTesting/varshocklib/Hierarchy_Br_filter.jsp",
-		"/D/Softwares/Sublime Text 3/Html/Week 2 Assignment/part1.html",
-		"/D/Softwares/Sublime Text 3/Html/Week 2 Assignment/dfsdf.html",
-		"/C/Users/vibjoshi/AppData/Local/Temp/scp17995/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/StressTesting/scenario/scenario_management_edit.jsp",
-		"/D/Softwares/Sublime Text 3/Html/Week 2 Assignment/part2.html",
-		"/D/Softwares/Presentation_Notes_and_Examples/01_HTML_&_CSS/1-04_handling_forms/04_handling_forms/1-4-2_more_on_forms/04_html_example_form_password_bad.html",
-		"/D/Softwares/Sublime Text 3/Html/Week 1 Assignment/final.html",
-		"/D/workspace/ofsaa804/ofsaa/WebContent/modeling/sandbox/SandboxDefinition_Add.jsp",
-		"/C/Users/vibjoshi/AppData/Local/Temp/scp40088/scratch/ofsaadb/tomcat-7.0.19/webapps/ofss/modeling/scripts/sandbox/SandboxDefinition_Add.js",
-		"/D/Softwares/Sublime Text 3/Html/Week 1 Assignment/Part_3.html",
-		"/D/Softwares/Sublime Text 3/Html/part3.html",
-		"/D/Softwares/Sublime Text 3/Html/Week 1 Assignment/Part_2.html",
-		"/D/Softwares/Sublime Text 3/Html/part2.html",
-		"/D/Softwares/Sublime Text 3/Html/Week 1 Assignment/Part_1.html",
-		"/D/Softwares/Sublime Text 3/Html/part1.html",
-		"/D/Softwares/Sublime Text 3/Html/Part_1.html",
-		"/C/Users/vibjoshi/AppData/Local/Temp/scp25682/scratch/ofsaadb/tomcat-7.0.19/webapps/ofss/modeling/outputs/model_output_details.jsp",
-		"/C/Users/vibjoshi/AppData/Local/Temp/scp46766/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/modeling/deployment/model_deployment.jsp",
-		"/C/Users/vibjoshi/AppData/Local/Temp/scp36266/scratch/ofsaadb/tomcat-7.0.19/webapps/ofss/AAI/common/CommonFunctions.js",
-		"/C/Users/vibjoshi/AppData/Local/Temp/scp10268/scratch/ofsaadb/tomcat-7.0.19/webapps/ofss/AAI/common/hierYahooTree.js",
-		"/C/Users/vibjoshi/AppData/Local/Temp/scp08948/scratch/ofsaadb/tomcat-7.0.19/webapps/ofss/modeling/sandbox/SandboxDefinition_Add.jsp",
-		"/C/Users/vibjoshi/AppData/Local/Temp/scp22745/scratch/ofsaadb/tomcat-7.0.19/webapps/ofss/modeling/scripts/sandbox/SandboxMaintenance_Edit.js",
-		"/C/Users/vibjoshi/AppData/Local/Temp/scp22725/scratch/ofsaadb/tomcat-7.0.19/webapps/ofss/modeling/scripts/sandbox/SandboxDefinition_Add.js",
-		"/C/Users/vibjoshi/AppData/Local/Temp/scp45792/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/AAI/common/CommonFunctions.js",
-		"/C/Users/vibjoshi/AppData/Local/Temp/scp04600/scratch/ofsaadb/tomcat-7.0.19/webapps/ofss/StressTesting/scripts/uploadFile/UploadScenarioFile.js",
-		"/C/Users/vibjoshi/AppData/Local/Temp/scp03849/scratch/ofsaadb/tomcat-7.0.19/webapps/ofss/StressTesting/scripts/uploadFile/UploadFileSummary.js",
-		"/C/Users/vibjoshi/AppData/Local/Temp/scp21942/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/modeling/scripts/sandbox/SandboxDefinition_Add.js",
-		"/C/Users/vibjoshi/AppData/Local/Temp/scp22905/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/modeling/scripts/sandbox/SandboxMaintenance_Edit.js",
-		"/C/Users/vibjoshi/AppData/Local/Temp/scp21821/scratch/ofsaadb/tomcat-7.0.19/webapps/ofss/modeling/scripts/sandbox/SandboxDefinition_Add.js",
-		"/C/Users/vibjoshi/AppData/Local/Temp/scp12219/scratch/ofsaadb/tomcat-7.0.19/webapps/ofss/modeling/scripts/sandbox/SandboxMaintenance_Edit.js",
-		"/C/Users/vibjoshi/AppData/Local/Temp/scp05061/scratch/ofsaadb/apache-tomcat-8.0.36/webapps/ofss/modeling/sandbox/Hierarchy_Br_sandbox_location.jsp"
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/menu.html",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/home.html",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/gulpfile.js",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/dishdetail.html",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/scripts/controllers.js",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/scripts/services.js",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/index.html",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/aboutus.html",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/aboutus.html",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/bower.json",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Countdown/bower.json",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/scripts/app.js",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/index.html",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/footer.html",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/header.html",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/menu.html",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/dishdetail.html",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/node_modules/browser-sync/lib/browser-sync.js",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/node_modules/browser-sync/lib/public/init.js",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/dishdetail (2).html",
+		"/C/Users/Vibhor Joshi/Desktop/conn.rdp",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/dishdetail1.html",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/package.json",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/Gruntfile.js",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/.jshintrc",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/dist/menu.html",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/dist/scripts/main.js",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/app.js",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/gruntFile.js",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/bower.json",
+		"/D/Video/HTML5/test/index1.html",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/contactus.html",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/css/mystyles.less",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/css/mystyles.css",
+		"/D/Video/HTML5/test/index (1).html",
+		"/D/Video/HTML5/test/index2.html",
+		"/F/Web Projects/rev_box.html",
+		"/F/Web Projects/css/stylerev.css",
+		"/D/Video/New folder/part2.html",
+		"/D/Video/New folder/Console_Spegeli-63d8350_v2_shortDelay_nameFix_spamFix_prioIVFix (1)/user.xml",
+		"/D/Video/New folder/part1.html",
+		"/D/Video/New folder/Release/Release/Config/auth.json",
+		"/D/Video/New folder/Release/Release/Config/config.json",
+		"/D/Video/New folder/Console_Spegeli-63d8350_v2_shortDelay_nameFix_spamFix_prioIVFix/user.xml",
+		"/C/Users/Vibhor Joshi/Desktop/divisors.txt",
+		"/C/Users/Vibhor Joshi/Desktop/aa.py",
+		"/C/Users/Vibhor Joshi/Desktop/antiprime1.txt",
+		"/C/Users/Vibhor Joshi/Desktop/antiprimes.csv",
+		"/C/Users/Vibhor Joshi/Desktop/antiprime.txt",
+		"/F/Web Projects/template.html",
+		"/F/Web Projects/flexible.html",
+		"/F/Web Projects/css/styleflexible.css",
+		"/F/Web Projects/flexible.hmtl.html",
+		"/F/Web Projects/signup.html",
+		"/F/Web Projects/css/stylesetup.css",
+		"/F/Web Projects/index.html",
+		"/F/Web Projects/setup.html",
+		"/F/Web Projects/css/stylemeter.css",
+		"/F/Web Projects/meter.html",
+		"/F/Web Projects/css/stylesignup.css",
+		"/F/Web Projects/css/styleform.css",
+		"/F/Web Projects/form.html",
+		"/F/Web Projects/css/styleblog.css",
+		"/F/Web Projects/blog.html",
+		"/F/Web Projects/HTML5 Revision.sublime-project",
+		"/F/Web Projects/css/jumbotron.css",
+		"/F/Web Projects/css/bootstrap-theme.css",
+		"/F/wamp64/www/02_Variables/index.php",
+		"/F/wamp64/www/welcome.php",
+		"/F/wamp64/www/index.php",
+		"/F/wamp64/www/01_FirstPage/index.php",
+		"/D/Chrome DL/Months/June 2016/First-Site-Lesson-4/css/jumbotron.css",
+		"/D/Chrome DL/Months/June 2016/First-Site-Lesson-4/index.html",
+		"/D/Chrome DL/Months/June 2016/Lazy.java",
+		"/D/Chrome DL/Months/June 2016/Spelling.java",
+		"/D/Chrome DL/Months/June 2016/Luck.java",
+		"/D/Chrome DL/Months/June 2016/Pancake.java",
+		"/D/Chrome DL/Months/June 2016/Sheep.java",
+		"/D/Chrome DL/Months/June 2016/B-small-practice.in",
+		"/D/Chrome DL/Months/June 2016/B-large-practice.in",
+		"/D/Chrome DL/Months/June 2016/A-large-practice.in",
+		"/D/Chrome DL/Months/June 2016/A-small-practice.in",
+		"/D/Chrome DL/Months/June 2016/CodeDynamicWebsites/CodeDynamicWebsites/catapp.php",
+		"/D/Chrome DL/Months/June 2016/CodeDynamicWebsites/CodeDynamicWebsites/08_MultiDimensionalArrays/index.php",
+		"/D/Chrome DL/Months/June 2016/CodeDynamicWebsites/CodeDynamicWebsites/07_AssociativeArrays/practice.php",
+		"/D/Chrome DL/Months/June 2016/CodeDynamicWebsites/CodeDynamicWebsites/07_AssociativeArrays/index.php",
+		"/D/Chrome DL/Months/June 2016/CodeDynamicWebsites/CodeDynamicWebsites/05_GetYourHandsDirty/practice.php",
+		"/D/Chrome DL/Months/June 2016/CodeDynamicWebsites/CodeDynamicWebsites/06_Arrays/index.php",
+		"/D/Chrome DL/Months/June 2016/CodeDynamicWebsites/CodeDynamicWebsites/06_Arrays/final.php",
+		"/D/Chrome DL/Months/June 2016/CodeDynamicWebsites/CodeDynamicWebsites/06_Arrays/practice.php",
+		"/D/Chrome DL/Months/June 2016/CodeDynamicWebsites/CodeDynamicWebsites/index.php",
+		"/D/Chrome DL/Months/June 2016/CodeDynamicWebsites/CodeDynamicWebsites/02_Variables/index.php",
+		"/D/Chrome DL/Months/June 2016/CodeDynamicWebsites/CodeDynamicWebsites/01_FirstPage/index.php",
+		"/D/Chrome DL/Months/June 2016/CodeDynamicWebsites/CodeDynamicWebsites/01_FirstPage/practice.php",
+		"/F/wamp64/www/phpTraining/Basics/phpTagsSimple.php",
+		"/F/wamp64/bin/apache/apache2.4.17/conf/httpd.conf",
+		"/F/wamp64/www/01_FirstPage/practice.php",
+		"/F/wamp64/www/Training/01_FirstPage/index.php",
+		"/F/wamp64/www/Training/02_Variables/index.php",
+		"/F/wamp64/www/Training/index.php",
+		"/F/wamp64/www/phpTagsSimple.php",
+		"/D/Coursera/Algorithms Specialization/Course 2/Week 1/Starters PA1/tree_height/tree_height.java",
+		"/D/Coursera/Algorithms Specialization/Course 2/Week 2/Starters PA2/make_heap/BuildHeap.java",
+		"/D/Coursera/Algorithms Specialization/Course 2/Week 2/Starters PA2/job_queue/JobQueue.java",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/DSA/Graphs/DFS/diameter.py",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Data Structures/InputReader.java",
+		"/D/Coursera/Algorithms Specialization/Course 2/Week 1/Starters PA1/tree_height/tree_height.py",
+		"/D/Coursera/Algorithms Specialization/Course 2/Week 1/Starters PA1/tree_height/tree-height.py",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/DSA/Graphs/DFS/dfs.py",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Data Science Python/numpy_array_io.py",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Data Science Python/numpy_array_processing.py",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Data Science Python/numpy_array_transposition.py",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Data Science Python/numpy_universal_array_functions.py",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Data Science Python/numpy_indexing_arrays.py",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Data Science Python/numpy_arrays_and_scalars.py",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Data Science Python/numpy_intro.py",
+		"/D/Coursera/Python Analytics/Databases With Python/geodata/geoload.py",
+		"/D/Coursera/Python Analytics/Databases With Python/geodata/geodump.py",
+		"/D/Coursera/Python Analytics/Databases With Python/geodata/where.data",
+		"/D/Coursera/Python Analytics/Databases With Python/Week 4/manytomany.sql",
+		"/D/Coursera/Python Analytics/Databases With Python/Week 4/roster.py",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Data Structures/Heap.java",
+		"/D/Sem 3-2/Data Structures and Algorithms/LAB 9/dijkstra.py",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Data Structures/HeapNode.java",
+		"/C/Users/Vibhor Joshi/Desktop/SOP/sopp/Graph_Creator.py",
+		"/C/Users/Vibhor Joshi/Desktop/SOP/sopp/gen1.py",
+		"/D/Coursera/Python Analytics/Databases With Python/Week 4/roster_data.json",
+		"/C/Users/Vibhor Joshi/AppData/Local/Temp/Rar$DIa0.494/grade.py"
 	],
 	"find":
 	{
@@ -296,37 +612,37 @@
 	},
 	"find_in_files":
 	{
-		"height": 0.0,
+		"height": 90.0,
 		"where_history":
 		[
 		]
 	},
 	"find_state":
 	{
-		"case_sensitive": false,
+		"case_sensitive": true,
 		"find_history":
 		[
-			"menuCtrl",
-			"<span",
-			"<span>",
-			"images",
-			"proxy",
-			"http",
-			"fn_clo",
-			"fn_cl",
-			"fn_clo",
-			"<body",
-			"openModal",
-			"alt=",
-			"noChange",
-			"opener",
-			"window",
-			"modelInfoDiv",
-			"parentWindow",
-			"sandboxForm",
-			"openModalDialog",
-			"fn_setNonTimeHierElementNodes",
-			"showModalDialog"
+			"dishD",
+			">\n",
+			"loginModal",
+			"reservationModal",
+			" ",
+			"  ",
+			"   ",
+			" ",
+			"  ",
+			"    ",
+			"       ",
+			"	",
+			"form-group",
+			"listen",
+			"listen 80",
+			"slice_of_arr",
+			"	",
+			"next",
+			"goal",
+			"queue",
+			"start"
 		],
 		"highlight": true,
 		"in_selection": false,
@@ -344,54 +660,24 @@
 	"groups":
 	[
 		{
-			"selected": 1,
+			"selected": 0,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "conFusion/app/scripts/app.js",
+					"file": "conFusion/gulpfile.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2179,
+						"buffer_size": 2667,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "conFusion/app/scripts/services.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4476,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1056,
-								1056
+								2537,
+								2537
 							]
 						],
 						"settings":
@@ -405,186 +691,6 @@
 						"zoom_level": 1.0
 					},
 					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "conFusion/app/scripts/controllers.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5072,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3352,
-								3352
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1305.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "conFusion/app/views/dishdetail.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5675,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								262,
-								262
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "conFusion/app/views/home.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3285,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1287,
-								1287
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
-					"file": "conFusion/app/index.html",
-					"semi_transient": true,
-					"settings":
-					{
-						"buffer_size": 1771,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 3,
-					"type": "text"
-				},
-				{
-					"buffer": 6,
-					"file": "conFusion/gulpfile.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2704,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": -0.0,
-						"translation.y": 135.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 7,
-					"file": "conFusion/app/views/menu.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2410,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1208,
-								1208
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 6,
 					"type": "text"
 				}
 			]
@@ -623,7 +729,7 @@
 	"menu_visible": true,
 	"output.exec":
 	{
-		"height": 298.0
+		"height": 25.0
 	},
 	"output.find_results":
 	{
@@ -671,7 +777,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 157.0,
+	"side_bar_width": 203.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
