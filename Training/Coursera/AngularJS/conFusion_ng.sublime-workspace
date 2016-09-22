@@ -40,10 +40,26 @@
 	"buffers":
 	[
 		{
-			"file": "conFusion/app/scripts/app.js",
+			"file": "conFusion/app/index.html",
 			"settings":
 			{
-				"buffer_size": 2179,
+				"buffer_size": 1771,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "conFusion/app/views/aboutus.html",
+			"settings":
+			{
+				"buffer_size": 6329,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "conFusion/app/views/contactus.html",
+			"settings":
+			{
+				"buffer_size": 7882,
 				"line_ending": "Windows"
 			}
 		},
@@ -60,46 +76,6 @@
 			"settings":
 			{
 				"buffer_size": 5072,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "conFusion/app/views/dishdetail.html",
-			"settings":
-			{
-				"buffer_size": 5675,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "conFusion/app/views/home.html",
-			"settings":
-			{
-				"buffer_size": 3285,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "conFusion/app/index.html",
-			"settings":
-			{
-				"buffer_size": 1771,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "conFusion/gulpfile.js",
-			"settings":
-			{
-				"buffer_size": 2667,
-				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "conFusion/app/views/menu.html",
-			"settings":
-			{
-				"buffer_size": 2410,
 				"line_ending": "Windows"
 			}
 		}
@@ -184,15 +160,16 @@
 	],
 	"file_history":
 	[
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/menu.html",
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/gulpfile.js",
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/contactus.html",
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/aboutus.html",
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/dishdetail.html",
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/home.html",
+		"/C/Users/vibjoshi/AppData/Local/Temp/scp26538/scratch/ofsaadb/tomcat-7.0.19/webapps/ofss/modeling/deployment/model_deployment_auth.jsp",
+		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/scripts/app.js",
 		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/scripts/services.js",
 		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/scripts/controllers.js",
-		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/scripts/app.js",
+		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/dishdetail.html",
+		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/home.html",
+		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/gulpfile.js",
+		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/menu.html",
+		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/contactus.html",
+		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/aboutus.html",
 		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/dishdetail.html",
 		"/D/code/Web_Projects/Training/Coursera/AngularJS/conFusion/app/dishdetail (2).html",
 		"/C/Users/vibjoshi/Desktop/test.html",
@@ -306,6 +283,8 @@
 		"case_sensitive": false,
 		"find_history":
 		[
+			"span",
+			"plusDiv",
 			"menuCtrl",
 			"<span",
 			"<span>",
@@ -344,163 +323,13 @@
 	"groups":
 	[
 		{
-			"selected": 6,
+			"selected": 2,
 			"sheets":
 			[
 				{
 					"buffer": 0,
-					"file": "conFusion/app/scripts/app.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 2179,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								0,
-								0
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 7,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "conFusion/app/scripts/services.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 4476,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1056,
-								1056
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
-					"type": "text"
-				},
-				{
-					"buffer": 2,
-					"file": "conFusion/app/scripts/controllers.js",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5072,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								3352,
-								3352
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 1305.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 2,
-					"type": "text"
-				},
-				{
-					"buffer": 3,
-					"file": "conFusion/app/views/dishdetail.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 5675,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								262,
-								262
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 5,
-					"type": "text"
-				},
-				{
-					"buffer": 4,
-					"file": "conFusion/app/views/home.html",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 3285,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								1287,
-								1287
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 4,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 4,
-					"type": "text"
-				},
-				{
-					"buffer": 5,
 					"file": "conFusion/app/index.html",
-					"semi_transient": true,
+					"semi_transient": false,
 					"settings":
 					{
 						"buffer_size": 1771,
@@ -510,8 +339,8 @@
 						"selection":
 						[
 							[
-								0,
-								0
+								1771,
+								1771
 							]
 						],
 						"settings":
@@ -528,12 +357,72 @@
 					"type": "text"
 				},
 				{
-					"buffer": 6,
-					"file": "conFusion/gulpfile.js",
+					"buffer": 1,
+					"file": "conFusion/app/views/aboutus.html",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2667,
+						"buffer_size": 6329,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								3837,
+								3839
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 888.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "conFusion/app/views/contactus.html",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 7882,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								5215,
+								5219
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/HTML/HTML.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 738.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "conFusion/app/scripts/services.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 4476,
 						"regions":
 						{
 						},
@@ -547,44 +436,44 @@
 						"settings":
 						{
 							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
-							"tab_size": 2,
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 720.0,
+						"translation.y": 765.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
+					"stack_index": 2,
 					"type": "text"
 				},
 				{
-					"buffer": 7,
-					"file": "conFusion/app/views/menu.html",
+					"buffer": 4,
+					"file": "conFusion/app/scripts/controllers.js",
 					"semi_transient": false,
 					"settings":
 					{
-						"buffer_size": 2410,
+						"buffer_size": 5072,
 						"regions":
 						{
 						},
 						"selection":
 						[
 							[
-								1208,
-								1208
+								0,
+								0
 							]
 						],
 						"settings":
 						{
-							"syntax": "Packages/HTML/HTML.sublime-syntax",
-							"tab_size": 2,
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
 							"translate_tabs_to_spaces": true
 						},
 						"translation.x": 0.0,
-						"translation.y": 0.0,
+						"translation.y": 1530.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 6,
+					"stack_index": 4,
 					"type": "text"
 				}
 			]
@@ -671,7 +560,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 157.0,
+	"side_bar_width": 198.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
