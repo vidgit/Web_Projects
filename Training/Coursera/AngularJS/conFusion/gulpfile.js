@@ -63,7 +63,7 @@ gulp.task('viewmin',function() {
 // Watch
 gulp.task('watch', ['browser-sync'], function() {
   // Watch .js files
-  gulp.watch('{app/scripts/**/*.js,app/styles/**/*.css,app/**/*.html}', ['usemin']);
+  gulp.watch('{app/scripts/**/*.js,app/styles/**/*.css,app/**/*.html}', ['usemin','update-server']);
   // Watch image files
   gulp.watch('app/images/**/*', ['imagemin']);
   // watch views
@@ -91,3 +91,13 @@ gulp.task('browser-sync', ['default'], function () {
         // Watch any files in dist/, reload on change
   gulp.watch(['dist/**']).on('change', browserSync.reload);
     });
+
+gulp.task('clean-public', function() {
+return del(['../json-server/public'], {force:true});
+});
+
+gulp.task('update-server', ['clean-public'], function() {
+return gulp.src(['./dist/**/*'], {base: 'dist'})
+.pipe(gulp.dest('../json-server/public'));
+
+});
