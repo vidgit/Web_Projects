@@ -5,7 +5,19 @@
 		[
 			[
 				"get",
-				"getLeader"
+				"getDishes"
+			],
+			[
+				"me",
+				"menuFactory"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"show",
+				"showMenu"
 			],
 			[
 				"ng-c",
@@ -404,19 +416,27 @@
 	"buffers":
 	[
 		{
+			"file": "conFusion/app/scripts/app.js",
+			"settings":
+			{
+				"buffer_size": 2192,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "conFusion/app/scripts/controllers.js",
+			"settings":
+			{
+				"buffer_size": 5150,
+				"line_ending": "Windows"
+			}
+		},
+		{
 			"file": "conFusion/gulpfile.js",
 			"settings":
 			{
 				"buffer_size": 2936,
 				"line_ending": "Windows"
-			}
-		},
-		{
-			"file": "conFusion/bower.json",
-			"settings":
-			{
-				"buffer_size": 647,
-				"line_ending": "Unix"
 			}
 		}
 	],
@@ -481,20 +501,23 @@
 	},
 	"expanded_folders":
 	[
-		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion"
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/scripts"
 	],
 	"file_history":
 	[
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/json-server/db.json",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/gulpfile.js",
+		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/bower.json",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/menu.html",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/home.html",
-		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/gulpfile.js",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/dishdetail.html",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/scripts/controllers.js",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/scripts/services.js",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/index.html",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/views/aboutus.html",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/Front-End_Web_UI_Frameworks_and_Tools/conFusion/aboutus.html",
-		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/bower.json",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Countdown/bower.json",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/scripts/app.js",
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Web_Projects/Training/Coursera/AngularJS/conFusion/app/index.html",
@@ -611,8 +634,7 @@
 		"/C/Users/Vibhor Joshi/Documents/GitHub/Data Structures/HeapNode.java",
 		"/C/Users/Vibhor Joshi/Desktop/SOP/sopp/Graph_Creator.py",
 		"/C/Users/Vibhor Joshi/Desktop/SOP/sopp/gen1.py",
-		"/D/Coursera/Python Analytics/Databases With Python/Week 4/roster_data.json",
-		"/C/Users/Vibhor Joshi/AppData/Local/Temp/Rar$DIa0.494/grade.py"
+		"/D/Coursera/Python Analytics/Databases With Python/Week 4/roster_data.json"
 	],
 	"find":
 	{
@@ -630,6 +652,7 @@
 		"case_sensitive": true,
 		"find_history":
 		[
+			"query",
 			"dishD",
 			">\n",
 			"loginModal",
@@ -668,11 +691,71 @@
 	"groups":
 	[
 		{
-			"selected": 0,
+			"selected": 1,
 			"sheets":
 			[
 				{
 					"buffer": 0,
+					"file": "conFusion/app/scripts/app.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 2192,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 225.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "conFusion/app/scripts/controllers.js",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 5150,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								4113,
+								4113
+							]
+						],
+						"settings":
+						{
+							"syntax": "Packages/JavaScript/JavaScript.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 1215.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
 					"file": "conFusion/gulpfile.js",
 					"semi_transient": false,
 					"settings":
@@ -684,8 +767,8 @@
 						"selection":
 						[
 							[
-								2029,
-								2029
+								0,
+								0
 							]
 						],
 						"settings":
@@ -694,41 +777,11 @@
 							"tab_size": 2,
 							"translate_tabs_to_spaces": true
 						},
-						"translation.x": 0.0,
-						"translation.y": 405.0,
+						"translation.x": -0.0,
+						"translation.y": 270.0,
 						"zoom_level": 1.0
 					},
-					"stack_index": 0,
-					"type": "text"
-				},
-				{
-					"buffer": 1,
-					"file": "conFusion/bower.json",
-					"semi_transient": false,
-					"settings":
-					{
-						"buffer_size": 647,
-						"regions":
-						{
-						},
-						"selection":
-						[
-							[
-								559,
-								559
-							]
-						],
-						"settings":
-						{
-							"syntax": "Packages/JavaScript/JSON.sublime-syntax",
-							"tab_size": 2,
-							"translate_tabs_to_spaces": true
-						},
-						"translation.x": 0.0,
-						"translation.y": 0.0,
-						"zoom_level": 1.0
-					},
-					"stack_index": 1,
+					"stack_index": 2,
 					"type": "text"
 				}
 			]
@@ -815,7 +868,7 @@
 	"show_open_files": false,
 	"show_tabs": true,
 	"side_bar_visible": true,
-	"side_bar_width": 203.0,
+	"side_bar_width": 50.0,
 	"status_bar_visible": true,
 	"template_settings":
 	{
