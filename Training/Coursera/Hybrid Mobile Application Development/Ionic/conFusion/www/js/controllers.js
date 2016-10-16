@@ -1,6 +1,6 @@
 angular.module('conFusion.controllers', [])
 
-.controller('AppCtrl', function($scope, $ionicModal, $timeout) {
+.controller('AppCtrl', function($scope, $ionicModal, $ionicPopover, $timeout) {
 
   // With the new view caching in Ionic, Controllers are only called
   // when they are recreated or on app start, instead of every page change.
@@ -39,6 +39,38 @@ angular.module('conFusion.controllers', [])
       $scope.closeLogin();
     }, 1000);
   };
+
+
+  $ionicPopover.fromTemplateUrl('templates/dish-detail-popover.html', {
+    scope: $scope
+  }).then(function(popover){
+    $scope.popover=popover;
+  });
+
+
+  $scope.openPopover = function($event) {
+
+    $scope.popover.show($event);
+  };
+
+  $scope.closePopover = function() {
+    $scope.popover.hide();
+  };
+
+  $scope.$on('$destroy', function() {
+      $scope.popover.remove();
+   });
+
+   // Execute action on hide popover
+   $scope.$on('popover.hidden', function() {
+      // Execute action
+   });
+
+   // Execute action on remove popover
+   $scope.$on('popover.removed', function() {
+      // Execute action
+   });
+
 
   $ionicModal.fromTemplateUrl('templates/reserve.html',{
     scope: $scope
@@ -112,6 +144,7 @@ angular.module('conFusion.controllers', [])
 
               favoriteFactory.addToFavorites(index);
               $ionicListDelegate.closeOptionButtons();
+
             }
         }])
 
@@ -147,7 +180,7 @@ angular.module('conFusion.controllers', [])
             };
         }])
 
-        .controller('DishDetailController', ['$scope', '$stateParams', 'menuFactory', 'baseURL', function($scope, $stateParams, menuFactory, baseURL) {
+        .controller('DishDetailController', ['$scope', '$stateParams', 'menuFactory', 'baseURL','favoriteFactory', function($scope, $stateParams, menuFactory, baseURL, favoriteFactory) {
 
             $scope.baseURL = baseURL;
             $scope.dish = {};
@@ -165,6 +198,13 @@ angular.module('conFusion.controllers', [])
                             }
             );
 
+            $scope.addFavorite = function(){
+
+              console.log("index is " + dish.id);
+              favoriteFactory.addToFavorites(dish.id);
+
+              $scope.closePopover();
+            }
 
         }])
 
