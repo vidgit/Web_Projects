@@ -1,0 +1,41 @@
+#one {
+  background-color: red;
+  position: fixed;
+  bottom: 200px;
+  right: 500px;
+}
+
+#two {
+  background-color: blue;
+  position: fixed;
+  bottom: 250px;
+  right: 400px;
+}
+
+#three {
+  background-color: green;
+  position: fixed;
+  bottom: 360px;
+  right: 360px;
+}
+
+#four {
+  background-color: yellow;
+  position: fixed;
+  bottom: 440px;
+  right: 200px;
+}
+
+#five {
+  background-color: orange;
+  position: fixed;
+  bottom: 520px;
+  right: 100px;
+}
+
+.circle-item {
+  border-radius: 50%;
+  border: 1px solid;
+  width: 100px;
+  height: 100px;
+}
