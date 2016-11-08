@@ -1,11 +1,11 @@
-var circle = ['#one', '#two', 'three', '#four' , '#five'];
+var circle = ['#one', '#two', '#three', '#four' , '#five'];
 $(function() {
   $('#one').hover(function() {
     $('#one').css('width', '150px');
     $('#one').css('height', '150px');
-    for(var i in circle){
-      if(i!='#one')
-        $(i).css('background-color', 'white');
+    for(var i=0; i<circle.length;i++){
+      if(circle[i]!='#one')
+        $(circle[i]).css('background-color', 'white');
     }
     
     $('body').css('background-color','#bababa');
@@ -14,9 +14,9 @@ $(function() {
      $('#one').css('width', '100px');
     $('#one').css('height', '100px');
     $('body').css('background-color','');
-    for(var i in circle){
-      if(i!='#one')
-        $(i).css('background-color', '');
+    for(var i=0; i<circle.length;i++){
+      if(circle[i]!='#one')
+        $(circle[i]).css('background-color', '');
     }
   });
 });
