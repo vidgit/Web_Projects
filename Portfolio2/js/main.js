@@ -1,4 +1,5 @@
 var circle = ["#one","#two","#three","#four","#five"];
+var circle2 = ["one","two","three","four","five"];
 var obs = [];
 var mobile=false;
 var screenHeight,screenWidth;
@@ -7,10 +8,10 @@ function build(){
   screenWidth=$(window).width();
   mobile=screenWidth<=323;
   if(mobile){
-    
+    $( "<div class='circle-item col-xs-12 col-md-2' id='one'>" ).appendTo( "#thumbNails" );
   }
   else{
-    
+
   }
 }
 
